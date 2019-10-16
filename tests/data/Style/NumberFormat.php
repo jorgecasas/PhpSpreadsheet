@@ -224,6 +224,16 @@ return [
         '0000:00.00',
     ],
     [
+        '12:34:56',
+        43481.5242592593,
+        \PhpOffice\PhpSpreadsheet\Style\NumberFormat::FORMAT_DATE_TIME9,
+    ],
+    [
+        '2019-01-16 12:34:56',
+        43481.5242592593,
+        \PhpOffice\PhpSpreadsheet\Style\NumberFormat::FORMAT_DATE_YYYYMMDDHHIISS,
+    ],
+    [
         '18.952',
         18.952,
         '[$-409]General',
